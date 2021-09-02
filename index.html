@@ -2,23 +2,38 @@
 <html>
 <head>
   <title>Chlo & Nath's Wedding</title>
+    <link href='./style.css' rel='stylesheet'>
 </head>
 <body>
     <Header>
-        <h2>Chlo & Nath!</h2>
-        <a href="#home">Home</a>
-        <a href="#info">Info</a>
-        <a href="#reservation">Reservation</a>
-        <a href="#contact">Contact</a>
-        </a>
+        <h4>Chlo & Nath!</h4>
+        <links>
+            <ul>
+             <a href="#home"><li id="home-tag">Home  </li></a>
+            <a href="#info"><li id="info-tag">Info  </li></a>
+            <a href="#reservation"><li id="reservation-tag">Reservation  </li></a>
+            <a href="#contact"><li id="contact-tag">Contact</li></a>
+            </ul>
+        </links>
     </Header>
     <main>
-        <img src="Resources/ChloNath.jpg">
-        <h1>Chlo & Nath</h1>
+        <div class="container">
+            <img src="Resources/ChloNath.jpg">
+            <h1>Chlo & Nath</h1>
+        </div>
         <info>
+            <h2 id="info">Information</h2>
            <p>Hi Guys!</p>
         <p>We are getting married on the 8th October 2022 and you're invited!</p>
         </info>
+
+        <reservation>
+            <h2 id="reservation">Reservation</h2>
+        </reservation>
+
+        <contact>
+            <h2 id="contact">Contact Information</h2>
+        </contact>
     </main>
 </body>
 
